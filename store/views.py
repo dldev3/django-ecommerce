@@ -105,3 +105,6 @@ def processOrder(request):
     else:
         print('User is not logged in')
     return JsonResponse('Payment complete!', safe=False)
+
+def test():
+    print(1)
